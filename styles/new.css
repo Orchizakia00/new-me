@@ -9,6 +9,11 @@
     height: 808px;
 }
 
+.banner {
+    padding-left: 850px;
+    padding-top: 250px;
+}
+
 .banner-title {
     color: #FFF;
     text-align: right;
@@ -32,4 +37,33 @@
     font-size: 16px;
     font-weight: 400;
     /* line-height: 26px; */
+    padding-left: 20px;
+    margin: 5px;
+}
+
+.btn {
+    color: #005FAC;
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    margin-top: 30px;
+    margin-left: 350px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-around;
+}
+
+.frame-image {
+    width: 451px;
+    height: 898px;
+    /* flex-shrink: 0; */
+    margin-left: 200px;
 }
