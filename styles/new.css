@@ -59,44 +59,33 @@
 .frame {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
-    /* gap: 100px; */
-    background: #FFF;
-    width: 1600px;
-    height: 3229px;
-    border: #005FAC;
 
+    margin-left: 200px;
+    margin-top: 150px;
 }
 
-.frame-image {
-    width: 450px;
-    height: 900px;
-    /* flex-shrink: 0; */
-    margin: 200px 500px 20px 100px;
-}
-.frame-content{
-    /* margin-left: 100px; */
-    padding-left: 0px;
-    margin: 60px 20px 20px 0px;
+.frame-content {
+    margin-top: 220px;
+    margin-left: 130px;
 }
 
 .frame-title {
     color: #151414;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
-    display: flex;
-    width: 300px;
-    flex-direction: column;
-    flex-shrink: 0;
-    
-    padding-top: 300px;
-    padding-left: 0px;
 }
 
-.frame-description {
+.frame-description .frame-list{
     width: 400px;
-    /* margin-left: 10px; */
     color: #444343;
     font-size: 16px;
     font-weight: 400;
+    /* margin-top: 10px; */
+    padding-top: 0px;
 }
+/* .frame-list{
+    width: 400px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+} */
